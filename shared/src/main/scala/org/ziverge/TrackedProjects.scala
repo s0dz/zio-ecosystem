@@ -24,6 +24,7 @@ object TrackedProjects:
   val projects =
     coreProjects ++
       List(
+        Project("dev.zio", "zio-s0dz", Some("https://github.com/s0dz")),
         Project("dev.zio", "zio-cache", Some("https://github.com/zio/zio-cache")),
         Project("dev.zio", "caliban-deriving", Some("https://github.com/zio/caliban-deriving")),
         Project("com.github.ghostdogpr", "caliban", Some("https://github.com/ghostdogpr/caliban")),
